@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color:cyan;
+}
+
+.flow-pane > .image-view {
+    -fx-effect: drop shadow(three-pass-box, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+.flow-pane > .image-view:hover {
+    -fx-effect: drop shadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.button {
+
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.flow-pane {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 10px;
+
+}
+
+.flow-pane > .image-view > .thumbnail {
+    -fx-background-color: black;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+}
+
+.flow-pane > .image-view > .thumbnail:hover {
+    -fx-border-color: #007bff;
+}
+
